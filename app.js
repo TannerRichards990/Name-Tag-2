@@ -1,5 +1,7 @@
 // import functions and grab DOM elements
 
+const nameInput = document.getElementById('name-input');
+console.log
 // let state
 
 // set event listeners 
