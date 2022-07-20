@@ -19,3 +19,10 @@ updateButton.addEventListener('click', () => {
     console.log(name);
     nameDisplay.textContent = name;
 });
+
+const pronounDisplay = document.getElementById('pronoun-display');
+
+pronounDisplay.addEventListener('select', () => {
+    const pronoun = pronounDisplay.value;
+    pronounDisplay.textcontent = pronoun;
+});
